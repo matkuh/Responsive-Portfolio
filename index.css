@@ -144,20 +144,20 @@ img {
     position: absolute;
     top: 130px;
     left: 20px;
-    width: 900px;
+    width: 95%;
 }
 
 #email {
     position: absolute;
     top: 180px;
     left: 20px;
-    width: 900px;
+    width: 95%;
 }
 #subject {
     position: absolute;
     top: 250px;
     left: 20px;
-    width: 900px;
+    width: 95%;
 }
 #cnamelab {
     position: absolute;
@@ -266,7 +266,7 @@ img {
 
 @media screen and (max-width: 980px) {   
     hr {
-        width: 98%;
+        width: 93%;
     }
     #p1 {
         font-size: 17px;
@@ -275,6 +275,11 @@ img {
         left: 100px;
     }
     #bodywrap {
+        width: 80%;
+        height: 600px;
+        margin-left: 100px;
+    }
+    #portbodywrap {
         width: 80%;
         height: 700px;
         margin-left: 100px;
@@ -286,7 +291,7 @@ img {
 
 @media screen and (max-width: 768px) {
     hr {
-        width: 95%;
+        width: 93%;
     }
     #p1 {
         font-size: 17px;
@@ -302,27 +307,76 @@ img {
         height: 700px;
         margin-left: 100px;
     }
+    #portbodywrap {
+        width: 80%;
+        height: 700px;
+        margin-left: 100px;
+    }
     #cptext {
-        left: 450px;
+        left: 400px;
     }
 }
 
 @media screen and (max-width: 640px) {
     hr {
-        width: 95%;
+        width: 93%;
     }
     #p1 {
         font-size: 14px;
     }
     #name {
-        left: 100px;
+        left: 0;
+        width: 100%;
+    }
+    #about {
+        top: 45px;
+        padding: 10px;
+        padding-left: 700px;
+        right: 54%;
+    }
+    #portfolio {
+        padding-left: 20px;
+        padding: 10px;
+        top: 45px;
+        right: 43%;
+
+    }
+    #contact {
+        padding: 10px;
+        top: 45px;
+        z-index: 2;
+        right: 0;
+        padding-right: 250px;
+
     }
     #bodywrap {
         width: 80%;
         height: 700px;
         margin-left: 100px;
     }
+    #portbodywrap {
+        width: 50%;
+        height: 1100px;
+        margin-left: 200px;
+    }
     #cptext {
-        left: 450px;
+        left: 320px;
+    } 
+    
+    #img1 {
+        left: 30px;
+        top: 660px;
+    }
+    #img2 {
+        left: 30px;
+        top: 840px;
+    }
+    #krabs {
+        left: 30px;
+        top: 750px;
+    }
+    #squid {
+        left: 30px;
+        top: 930px;
     }
 }
