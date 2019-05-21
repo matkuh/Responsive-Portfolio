@@ -64,6 +64,15 @@ body {
     height: 500px;
     position: relative;
 }
+#contbodywrap {
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background: #ffffff;
+    width: 960px;
+    height: 500px;
+    position: relative;
+}
 #bodyh1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 30px;
@@ -284,6 +293,11 @@ img {
         height: 700px;
         margin-left: 100px;
     }
+    #contbodywrap {
+        width: 80%;
+        height: 550px;
+        margin-left: 100px;
+    }   
     #cptext {
         left: 450px;
     }
@@ -315,6 +329,10 @@ img {
     #cptext {
         left: 400px;
     }
+    #contbodywrap {
+        height: 500px;
+
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -324,6 +342,10 @@ img {
     #p1 {
         font-size: 14px;
     }
+    #p2 {
+        font-size: 17px;
+    }
+    
     #name {
         left: 0;
         width: 100%;
@@ -355,7 +377,7 @@ img {
         margin-left: 100px;
     }
     #portbodywrap {
-        width: 50%;
+        width: 48%;
         height: 1100px;
         margin-left: 200px;
     }
